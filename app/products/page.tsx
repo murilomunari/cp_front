@@ -1,6 +1,6 @@
-import ButtonLogout from "@/components/ButtonLogout"
-import PokemonList from "@/components/PokemonList"
-import { ResponsePokemonList } from "@/types/pokemon.type"
+import ButtonLogout from "/components/ButtonLogout"
+import PokemonList from "../../components/PokemonList"
+import { ResponsePokemonList } from "../../types/pokemon.type"
 
 async function getData() {
   try {

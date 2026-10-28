@@ -1,6 +1,5 @@
 'use client'
-
-import { Pokemon } from "@/types/pokemon.type"
+import { Pokemon } from "../types/pokemon.type"
 import PokemonComponent from "./Pokemon"
 import { useEffect, useState } from "react"
 
