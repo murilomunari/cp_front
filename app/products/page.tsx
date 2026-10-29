@@ -1,3 +1,4 @@
+import ButtonLogout from "../../components/ButtonLogout"
 import PokemonList from "../../components/PokemonList"
 import { ResponsePokemonList } from "../../types/pokemon.type"
 
@@ -17,7 +18,7 @@ export default async function PokemonsPage() {
 
   return (
     <div>
-      <h1>Pokemons Page</h1>
+      <h1>Pokemons Page <ButtonLogout /></h1>
       <PokemonList pokemons={pokemons} />
     </div>
   )
